@@ -1,0 +1,27 @@
+.navbar-brand{
+    color: #EC407A !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px !important;
+
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    color: #EF9A9A !important;
+}
+.navbar-nav li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cr{
+    background-image: url("./19c02accc2b665dc9b80678c3f9d514b.jpg") !important;
+    background-size: cover !important;
+}
+.w-100 {
+    width: 100% !important;
+    height: 87vh;
+  }    
+  .w-1000{
+    width: 100% !important;
+    height: 40vh;
+  }
