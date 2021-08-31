@@ -1,23 +1,38 @@
 void main() {
   
-//    var list1 = ["bilal",1,true,"ali","umair"];
-//   var list2 = [2,6,4,7,9,0];
-//   var list3 = ["bilal","ali","umair","huzaifa"];
 
+// List.replaceRange(int start_index,int end_index,Iterable <items>) 
+// Where,
+
+// Start_index − an integer representing the index position to start replacing.
+
+// End_index − an integer representing the index position to stop replacing.
+   var list1 = ["bilal",1,true,"ali","umair"];
+  var list2 = [2,6,4,7,9,0];
+  var list3 = ["bilal","ali","umair","huzaifa"];
   
+
 //   list1.replaceRange(2,4,["ahmed",false]);
-//   list3.sort();
-// //   print(list1);
-//   print(list3);
   
+//   list1.replaceRange(2,4,["ahmed",false,"raza"]);
+// yani index 2 sa start kro replace krna index 4 pr replace stop krdo
+//   yani index 4 pr jo value ha is pr koi change nhi ae ga.
+// print(list1);
+// O:[bilal, 1, ahmed, false, umair]  
+// O:[bilal, 1, ahmed, false, raza, umair]
+list3.sort();
+// yani order ma arrange krdo jo aphabet phela ae .  
+// print(list3);  
+//  O:[ali, bilal, huzaifa, umair] 
+
+  list1[3]="alii";
+   print(list1);
+// O:[bilal, 1, true, alii, umair]
   
-//       list1[3]="ali";
 // int a = 3;
 // String b = "bilal";
 // double c = 2.97;
-// bool d = true;
-//   list3.sort();
-//   print(list1);
+// bool d = true; 
   
 //   var list5 = [];
 //   if(list5.isEmpty){
