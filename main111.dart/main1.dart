@@ -121,27 +121,61 @@ list3.sort();
 
 // ----------xxxxx-----------xxxx-----------xxxx----------
    
+ //  map is a collection of key/value pairs. The value is retrieved from a 
+//    map with its associated key. 
+//    Maps are also called dictionaries, associative arrays, or hash tables.
+  
+//    The Map object is a simple key/value pair. Keys and values in a map may be of any type. A Map is a dynamic collection. In other words, Maps can grow and shrink at runtime.
+
+// Maps can be declared in two ways −
+
+// Using Map Literals
+// Using a Map constructor
+// Declaring a Map using Map Literals
+// To declare a map using map literals, you need to enclose the key-value pairs within a pair of curly brackets "{ }".
+
+// Here is its syntax −
+
+// var identifier = { key1:value1, key2:value2 [,…..,key_n:value_n] }
+  
+  
+  
 //   var map1 = {1:'bilal',2:'umair',4:'ali'};
 //    print(map1.length);
+// //O:3
   
   
-//    var map1 = {1:'bilal',2:'umair',4:'ali'};
+//   var map1 = {1:'bilal',2:'umair',4:'ali'};
 //   map1[5] = "ahmed";
 //   print(map1);
+//   O:{1: bilal, 2: umair, 4: ali, 5: ahmed}
   
-//    var map1 = {"1":'bilal',2:'umair',4:'ali'};
+  
+//      var map1 = {"1":'bilal',2:'umair',4:'ali'};
 //   map1.addAll({6:"abc",7:"fff"});
 //   print(map1);
+//   O:{1: bilal, 2: umair, 4: ali, 6: abc, 7: fff}
   
-//   var mylist = [0,'ali','owais'];
+  
+//    var mylist = [0,'ali','owais'];
 //   mylist.add('bilal');
 //   print(mylist);
+//O:[0, ali, owais, bilal]
   
-//   var mylist = [5,3,2,4,1,0];
+//     var mylist = [5,3,2,4,1,0];
 //   mylist.remove(3);
 //   print(mylist);
-//   var abc = jawanpakistan; 
+//O:[5, 2, 4, 1, 0]
+  
+//     var abc = jawanpakistan; 
 //   print(abc);
+//   O:error
+  
+//     var abc = "jawanpakistan"; 
+//   print(abc);
+// O:jawanpakistan  
+  
+  
   
 //    var num = 25; 
 //   if(num>10){
@@ -150,15 +184,21 @@ list3.sort();
 //   {
 //     print('false'); 
     
-  
-  
+    
 // }
+//O:true   
   
   
   
+//   if(false)
+//   { print('true');
+//   }
+//   else
+//   { print('false'); 
+//   }
   
-  if(false){ print('true'); }else{ print('false'); }
+// O:false  
   
-
+  
 }
   
