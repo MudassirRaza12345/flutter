@@ -34,68 +34,93 @@ list3.sort();
 // double c = 2.97;
 // bool d = true; 
   
-//   var list5 = [];
+ 
+  // var list5 = [];
 //   if(list5.isEmpty){
-//   print("Empty list found");
+// //   print("Empty list found");
 //   }
-  
-//     list5.add("ali");
-//   list5.add("bilal");
+// //   O:Empty list found
+  //   list5.add("ali");
+  // list5.add("bilal");
 //   print(list5);
+//   O:[ali, bilal]
   
-//    if(list5.isNotEmpty){
+//      if(list5.isNotEmpty){
 // print("List is not empty");
 //   }
-//   list5.clear();
-//   print(list5);
+// O:List is not empty  
+  
+  // list5.clear();
+  // print(list5);
+//   O:[]
   
   
-//   var list6=[8,4,6,9,7,1];
+     
+// //   var list6=[8,4,6,9,7,1];
 // //   var x = List.of(list6.reversed);
-// //   print(x);
+// // //   print(x);
+// // //   O:[1, 7, 9, 6, 4, 8]
   
+   
   
-//   var list7 = [12,19,-7,-2,-1,25,36];
-//   list6.addAll(list7);
-//   print(list6);
-//   list6.sort();
-//   print(list6);
+// //   var list7 = [12,19,-7,-2,-1,25,36];
+// //   list6.addAll(list7);
+// //   print(list6);
+// // //   O:[8, 4, 6, 9, 7, 1, 12, 19, -7, -2, -1, 25, 36]
+// //   list6.sort();
   
-//   list6.insert(4,50);
-//   print(list6);
+// //   print(list6);
+// // //  O:-7, -2, -1, 1, 4, 6, 7, 8, 9, 12, 19, 25, 36] 
+// //   list6.insert(4,50);
+// // //   insert(index,value)
+// //   ,print(list6);
+// // //   O:[-7, -2, -1, 1, 50, 4, 6, 7, 8, 9, 12, 19, 25, 36]
   
+   
   
+
+// //The insert() function accepts a value and inserts it at the specified index. 
+// // Similarly, the insertAll() function
+// // inserts the given list of values, beginning from the index specified.
   
-  
-  
-//   var list8 = ["ali","bilal"];
-//   list8.insertAll(1,["huzaifa","umair","ghous"]);
+// //      var list8 = ["ali","bilal"];
+// //   List.insert(index,value) 
+// // List.insertAll(index, iterable_list_of _values)
+// //   list8.insertAll(1,["huzaifa","umair","ghous"]);
+// //   
 // //   print(list8);
+// //  O: [ali, huzaifa, umair, ghous, bilal]
   
-  
-  
-// //   list8.remove("ghous");
+// //    list8.remove("ghous");
 // //   print(list8);
-  
+// // O:[ali, huzaifa, umair, bilal]   
   
   
 // //     list8.removeAt(0);
 // //   print(list8);
+// //   O:[huzaifa, umair, bilal]
   
-// //   list7.removeWhere((e) => e > 0);
+// //    var list7 = [12,19,-7,-2,-1,25,36];
+  
+// //     list7.removeWhere((e) => e > 0);
+// //   yani jo bhi values list ma greater than 0 hain inko remove krdo.
 // //   print(list7);
-  
-  
-  
-//   list8.removeRange(2, 3);
+// // O:[-7, -2, -1]
+ 
+//   var list8 = ["ali", "huzaifa","umair", "ghous", "bilal"];
+//     list8.removeRange(2, 3);
 // //   print(list8);
+// //   O:[ali, huzaifa, ghous, bilal]
   
+//   var list7 = [12,19,-7,-2,-1,25,36];
   
 //   list7.retainWhere((e) => e > 7);
+// //   yani wo value jo greater 7 hain is ka elawa sb values remove krdo.
 //   print(list7);
-// }
-  
-  
+// //  O:[12, 19, 25, 36]
+
+// ----------xxxxx-----------xxxx-----------xxxx----------
+   
 //   var map1 = {1:'bilal',2:'umair',4:'ali'};
 //    print(map1.length);
   
