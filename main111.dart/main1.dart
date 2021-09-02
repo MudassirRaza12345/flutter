@@ -199,6 +199,132 @@ list3.sort();
   
 // O:false  
   
+  //--------Some Practice work------------------   
+  
+  
+//      int number1 = 25;
+//    print(number1);
+//   O:25
+//   double abc = 12.5;
+//   print(abc);
+//   O:12.5
+  
+//   num number1 = 5;
+//   num number2 = 5.5;
+//   print(number1);
+//   print(number2);
+//   O:5
+//   O:5.5
+  
+  
+  
+  
+//   String abc = "12";
+//   print(abc);
+//   o:12
+  
+//   int num1 = 5;
+//   int num2 = 10;
+//   bool check = num1>num2;
+//   // comments 5>10
+//   print(check);
+//   O:false
+  
+//   int num1 = 11;
+//   int num2 = 4;
+//   int output = num1%num2;
+//             20 / 40
+    
+  //   print("Output is : ${output}");
+//   Output is : 3
+//   $ is used to get value
+  
+  
+  
+  
+  
+//   int x = 5;
+//   int y = x++;
+//   print(y);
+//   O:5
+  
+  
+  
+  
+  
+//   int a = 10;
+//   int b = --a;
+//   print(b);
+//O:9
+  
+  
+//   int f = 3;
+//   int g = f++ + --f - f + f++ - f-- +  ++f;
+//   print(g);
+//   O:6
+  
+  
+  
+  
+  
+//   int x = 9;
+//   int y = x + ++x - x-- + x++ + x - --x + ++x - x--;  
+//          9 + 10 - 10 + 9 + 10 - 9 + 10 - 10;
+//   print(y);
+//   O:19
+  
+//   int age = 121;
+//   bool check = age != 18;
+// //                18 >= 18
+//   print(check);
+// //   O:true
+  
+//   int a = 10;
+//   int b = 5;
+//   bool status = a>10 || b<10;
+// //              10>10 && 5<10
+//   print(status);
+//   O:true
+  
+  
+  
+//   int abc = 15;
+//   int b = ++abc;
+//   print(b);
+//O:16   
+  
+  
+  
+  
+// var a =15;
+//   var b =15;
+//   if (a<b){
+// //     bilalll == bilal 
+//     print("A is less than B");
+//   }else if (a>b){
+//     print("A is greater than B");
+//   }else if (a==b){
+//     print("A is equal to B");
+//   }else{
+//     print("Not equal");
+//   }
+  
+// O:A is equal to B
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
   
 }
   
