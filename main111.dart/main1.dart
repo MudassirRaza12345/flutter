@@ -198,8 +198,7 @@ list3.sort();
 //   }
   
 // O:false  
-  
-  void main() {
+   
    
 //    var list1 = ["bilal",1,true,"ali","umair"];
 //   var list2 = [2,6,4,7,9,0];
@@ -363,19 +362,6 @@ list3.sort();
 //   print('${abc}');
 //   o:bilal
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-}
-
   
   //--------Some Practice work------------------   
   
